@@ -1,5 +1,7 @@
 Link:https://kaleidoscopic-faloodeh-e7e470.netlify.app/
 
+Sometimes API fail to load , refresh the page in such cases.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
