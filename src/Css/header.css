@@ -48,3 +48,44 @@ a{
 #navbar a{
     margin: 5px;
 }
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 500px){
+
+
+    .conatainer{
+        flex-direction: column;
+    }
+
+    .products{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .conatiner-cart{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .conatiner-cart .left-half{
+        width: 100%;
+        margin:0 auto;
+        margin: 0 auto;
+    }
+
+    .conatiner-cart .right-half{
+        width: 100%;
+        min-height: 50vh;
+        margin: 0 auto;
+    }
+
+    #bill .bill-description{
+        width: 90%;
+    }
+
+}
