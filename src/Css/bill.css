@@ -1,0 +1,43 @@
+#bill h1{
+    text-align: center;
+}   
+
+#bill p{
+    margin: 1em;
+}
+
+.bill-description{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    background-color: #fff;
+    height: 80vh;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bill-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    background-color: lightblue;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+.bill-btn:hover{
+    transform: translateY(-5px);
+}

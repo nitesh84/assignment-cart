@@ -1,0 +1,50 @@
+
+
+
+#navbar i::after{
+    content: attr(current-count);
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    background-color: white;
+    border-radius: 50%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#navbar i{
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkblue
+}
+
+#navbar h2{
+    color: darkblue;
+}
+
+#navbar{
+    padding: 0.5em 0;
+    background-color: grey;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar h2,
+#navbar a{
+    margin: 5px;
+}
