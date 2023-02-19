@@ -12,6 +12,7 @@ const Bill = () => {
             <h1 className='m-tp'>Thank You For Your Order !</h1>
 
             <div className='bill-description'>
+              <p>Order Id : #{Math.random().toFixed(4)*10000}</p>
                 {cartItems.map((item)=>{
                   total+=item.price;
                   return(
