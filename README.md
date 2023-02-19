@@ -1,4 +1,4 @@
-Link:https://beamish-blini-f74bc8.netlify.app/
+Link:https://kaleidoscopic-faloodeh-e7e470.netlify.app/
 
 # Getting Started with Create React App
 
